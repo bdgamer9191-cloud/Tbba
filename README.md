@@ -56,7 +56,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TBBA Framework</title>
-    <script src="https://github.com/bdgamer9191-cloud/Tbba/blob/main/TBBA.js"></script>
+    <script src="https://unpkg.com/tbba@2.0.0/TBBA.js"></script>
 </head>
 <body>
     <div class="tbba-container">
