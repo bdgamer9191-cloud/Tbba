@@ -1,106 +1,43 @@
-# 🎨 **TBBA Framework v2.0.0** 🌟
+🎨 TBBA Framework v2.0.0 🚀 A Hybrid CSS Dream✨ The Ultimate Hybrid CSS Framework: Tailwind + Bootstrap + Bulma! ✨Zero configuration. Maximum velocity. 🎭📋 Table of Contents🌟 Why Choose TBBA?📦 Installation Magic🌐 CDN📦 NPM⚛️ Framework IntegrationsReact IntegrationVue.js IntegrationAngular Integration🚀 Super Quick Start🎨 Component Gallery🛠️ Utilities⚡ JavaScript API✅ Real-World Example: Login Form📢 Community & Support📜 License🌟 Why Choose TBBA?TBBA is not just another CSS framework; it's the culmination of the best parts of the holy trinity of CSS: Tailwind's utility-first approach, Bootstrap's robustness, and Bulma's elegant components.FeatureDescriptionBenefitHybrid DNACombines Tailwind, Bootstrap, and Bulma concepts.All-in-one flexibility and power.Zero ConfigJust link the script/install the package and go.Start building instantly.Auto CSS InjectionAutomatically includes the necessary stylesheets.No manual links needed.Smart ThemeBuilt-in dark/light mode detection and toggling.Modern, accessible UI out of the box.Unified DesignConsistent look and feel across all components.Your app looks great, effortlessly.LightweightA mere 200KB total footprint.Lightning-fast loading times.💡 Fun Fact: You get the powerful utility classes (tbba-p-4, tbba-text-6xl) and the ready-made components (tbba-btn, tbba-card) in one package!📦 Installation MagicGet up and running in seconds. Choose your preferred method!🌐 CDNThe fastest way to start. Just drop this line in your <head> and TBBA handles the rest!<script src="[https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js](https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js)"></script>
 
-<div align="center">
-
-[![Version](https://img.shields.io/badge/Version-2.0.0-brightgreen?style=for-the-badge&logo=github)](https://github.com/bdgamer9191-cloud/Tbba/releases)  
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=bookstack)](https://opensource.org/licenses/MIT)  
-[![Stars](https://img.shields.io/github/stars/bdgamer9191-cloud/Tbba?style=for-the-badge&logo=star&color=yellow)](https://github.com/bdgamer9191-cloud/Tbba/stargazers)  
-[![Forks](https://img.shields.io/github/forks/bdgamer9191-cloud/Tbba?style=for-the-badge&logo=git&color=orange)](https://github.com/bdgamer9191-cloud/Tbba/network)  
-[![Size](https://img.shields.io/badge/Size-200KB-blue?style=for-the-badge&logo=download)](https://github.com/bdgamer9191-cloud/Tbba)  
-[![JavaScript](https://img.shields.io/badge/Made_with-JavaScript-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
-[![No Dependencies](https://img.shields.io/badge/Dependencies-None-success?style=for-the-badge&logo=check-circle)](https://github.com/bdgamer9191-cloud/Tbba)  
-[![Node.js](https://img.shields.io/badge/Node.js-14.x+-green?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)  
-[![NPM Package](https://img.shields.io/badge/NPM_Package-Available-red?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/tbba)
-
-**✨ The Ultimate Hybrid CSS Framework ✨**  
-*Where Tailwind meets Bootstrap dances with Bulma!* 🎭  
-
-</div>
-
----
-
-## 📋 **Table of Contents**
-- Why Choose TBBA  
-- Installation  
-- CDN  
-- NPM  
-- React Integration  
-- Vue.js Integration  
-- Angular Integration  
-- Component Gallery  
-- Utilities  
-- JavaScript API  
-- Real-world Examples  
-- Community  
-
----
-
-# 📢 Community & Support
-
-<div align="center">
-
-### 💬 Join Telegram  
-<a href="https://t.me/tbbacss" target="_blank">
-  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
-</a>  
-<a href="https://t.me/tbbacss" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="24">
-  **@tbbacss**
-</a>
-
-<img src="https://web.telegram.org/k/assets/img/apple-touch-icon.png?v=1" width="100">
-
-</div>
-
----
-
-# 📦 Installation Magic
-
-## 🌐 CDN
-```html
-<script src="https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js"></script>
-
-<script 
-  src="https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js"   
-  integrity="sha384-..."  
+<!-- For production, it's recommended to use the integrity hash: -->
+<script
+  src="[https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js](https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js)"
+  integrity="sha384-..." <!-- (Replace '...' with the actual hash) -->
   crossorigin="anonymous">
 </script>
-
-📦 NPM Installation
-
+📦 NPM InstallationFor modern development environments, use your favorite package manager.# Using NPM
 npm install tbba
+
+# Using Yarn
 yarn add tbba
+
+# Using pnpm
 pnpm add tbba
-
-
----
-
-⚛️ React Integration
-
-import React from 'react';
-import 'tbba/dist/TBBA.css';
-import { TBBA } from 'tbba';
+⚛️ Framework IntegrationsTBBA is designed to play nicely with all major JavaScript frameworks.React Integration ⚛️Import the CSS and the JavaScript API once in your entry file.import React from 'react';
+import 'tbba/dist/TBBA.css'; 
+// Note: TBBA object is available globally after the script is loaded/included.
 
 function App() {
   return (
-    <div className="tbba-container">
-      <h1 className="tbba-text-primary">Hello TBBA!</h1>
-      <button className="tbba-btn tbba-btn-primary">Click Me</button>
+    <div className="tbba-container tbba-p-8 tbba-bg-gray-100">
+      <h1 className="tbba-text-primary tbba-text-4xl">Hello TBBA on React!</h1>
+      <button 
+        className="tbba-btn tbba-btn-primary tbba-mt-4"
+        onClick={() => TBBA.toast.info("React App Clicked!")}>
+        Click Me & See Magic ✨
+      </button>
     </div>
   );
 }
 
 export default App;
-
-
----
-
-🖖 Vue.js Integration
-
-<template>
-  <div class="tbba-container">
-    <h1 class="tbba-text-primary">Hello TBBA!</h1>
-    <button class="tbba-btn tbba-btn-primary" @click="showAlert">Click Me</button>
+Vue.js Integration 🖖Utilize the global TBBA object within your component methods.<template>
+  <div class="tbba-container tbba-p-8 tbba-bg-white">
+    <h1 class="tbba-text-primary tbba-text-4xl">Hello TBBA on Vue.js!</h1>
+    <button class="tbba-btn tbba-btn-primary tbba-mt-4" @click="showAlert">
+      Click Me & Show Alert 🔔
+    </button>
   </div>
 </template>
 
@@ -110,17 +47,13 @@ import 'tbba/dist/TBBA.css';
 export default {
   methods: {
     showAlert() {
-      TBBA.alert('Hello from Vue!', 'success');
+      // TBBA.alert is a global function thanks to the included script
+      TBBA.alert('Hello from Vue!', 'success'); 
     }
   }
 }
 </script>
-
-
----
-
-🎯 Angular Integration
-
+Angular Integration 🎯Include the CSS and JS files in your angular.json to make them globally available.// angular.json (partial)
 {
   "projects": {
     "your-project": {
@@ -128,10 +61,10 @@ export default {
         "build": {
           "options": {
             "styles": [
-              "node_modules/tbba/dist/TBBA.css"
+              "node_modules/tbba/dist/TBBA.css" 
             ],
             "scripts": [
-              "node_modules/tbba/dist/TBBA.js"
+              "node_modules/tbba/dist/TBBA.js" 
             ]
           }
         }
@@ -139,159 +72,107 @@ export default {
     }
   }
 }
-
-
----
-
-✨ Why Choose TBBA?
-
-• 🧬 Hybrid DNA: Tailwind + Bootstrap + Bulma  
-• ⚡ Zero config  
-• 🤖 Auto CSS injection  
-• 🌙 Smart theme detection  
-• 🎨 Unified design system  
-• 📦 NPM ready
-
-
----
-
-🚀 Super Quick Start
-
-<!DOCTYPE html>
+🚀 Super Quick StartJust one file and two classes to get a styled button and an interactive alert!<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js"></script>
+    <!-- ⚡ THE ONLY LINE YOU NEED! ⚡ -->
+    <script src="[https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js](https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js)"></script>
     <title>TBBA Starter</title>
 </head>
-<body class="tbba-container">
-    <h1 class="tbba-text-primary tbba-text-center">Welcome to TBBA</h1>
+<body class="tbba-container tbba-p-8">
+    <h1 class="tbba-text-5xl tbba-font-extrabold tbba-text-primary tbba-text-center tbba-animate-pulse">
+        Welcome to TBBA
+    </h1>
 
-    <button class="tbba-btn tbba-btn-primary"
-        onclick="TBBA.alert('Welcome!', 'success')">
-        Click Me
-    </button>
+    <div class="tbba-flex tbba-justify-center tbba-mt-8">
+        <button class="tbba-btn tbba-btn-gradient tbba-shadow-xl"
+            onclick="TBBA.toast.success('🎉 Framework Initialized!', 'bottom-right')">
+            Initialize TBBA!
+        </button>
+    </div>
 </body>
 </html>
-
-
----
-
-🎨 Component Gallery
-
-Buttons
-
-<button class="tbba-btn tbba-btn-primary">Primary</button>
-<button class="tbba-btn tbba-btn-outline-primary">Outline</button>
-<button class="tbba-btn tbba-btn-gradient">Gradient</button>
-<button class="tbba-btn tbba-btn-lg">Large</button>
-
-Cards
-
-<div class="tbba-card tbba-shadow-lg">
-  <img src="image.jpg" class="tbba-card-img">
+🎨 Component GalleryBeautiful, ready-to-use components inspired by the best of the web.Buttons 🔘A variety of styles and sizes.<button class="tbba-btn tbba-btn-primary">Primary</button>
+<button class="tbba-btn tbba-btn-outline-secondary">Outline</button>
+<button class="tbba-btn tbba-btn-gradient tbba-animate-bounce">Gradient</button>
+<button class="tbba-btn tbba-btn-lg tbba-rounded-full">Large & Full Round</button>
+Cards 🖼️Perfect for displaying grouped information.<div class="tbba-card tbba-shadow-2xl tbba-rounded-xl tbba-hover-scale-105 tbba-transition-all">
+  <!-- Use a responsive image -->
+  <img src="[https://picsum.photos/400/200](https://picsum.photos/400/200)" class="tbba-card-img tbba-rounded-t-xl" alt="Card Image">
   <div class="tbba-card-body">
-      <h5 class="tbba-card-title">Title</h5>
-      <p class="tbba-card-text">Example text.</p>
-      <a class="tbba-btn tbba-btn-primary">Go</a>
+      <h5 class="tbba-card-title tbba-text-2xl tbba-font-semibold">The Hybrid Title</h5>
+      <p class="tbba-card-text tbba-text-gray-600">This card shows the power of TBBA's blended design system.</p>
+      <a class="tbba-btn tbba-btn-primary tbba-mt-3">Go Somewhere</a>
   </div>
 </div>
-
-Navbar
-
-<nav class="tbba-navbar">
-    <div class="tbba-navbar-brand">MyBrand</div>
+Navbar 🧭Responsive and feature-rich navigation.<nav class="tbba-navbar tbba-bg-dark tbba-shadow-lg tbba-p-3">
+    <div class="tbba-navbar-brand tbba-text-white tbba-font-bold">TBBA Brand</div>
     <div class="tbba-navbar-menu">
-        <a class="tbba-navbar-item">Home</a>
-        <a class="tbba-navbar-item">About</a>
-        <a class="tbba-navbar-item">Contact</a>
+        <a class="tbba-navbar-item tbba-text-white tbba-hover-text-primary">Home</a>
+        <a class="tbba-navbar-item tbba-text-white tbba-hover-text-primary">About</a>
+        <a class="tbba-navbar-item tbba-text-white tbba-hover-text-primary">Contact</a>
+        <button class="tbba-btn tbba-btn-outline-light" onclick="TBBA.theme.toggle()">
+            🌙 Toggle Theme
+        </button>
     </div>
 </nav>
-
-
----
-
-🛠️ Utilities
-
-Spacing
-
-<div class="tbba-m-4">Margin</div>
-<div class="tbba-p-4">Padding</div>
-
-Typography
-
-<h1 class="tbba-text-6xl">Heading</h1>
-<p class="tbba-text-primary">Primary text</p>
-
-Grid
-
-<div class="tbba-row">
-  <div class="tbba-col-4">Col</div>
-  <div class="tbba-col-4">Col</div>
-  <div class="tbba-col-4">Col</div>
+🛠️ UtilitiesHarness the power of utility-first design for granular control.Spacing (Margin/Padding)Based on a simple scale (1 to 12).ClassPropertytbba-m-4margin: 1rem;tbba-p-4padding: 1rem;tbba-mx-automargin-left: auto; margin-right: auto;tbba-py-6padding-top/bottom: 1.5rem;TypographyFine-tune your text with Tailwind-style classes.<h1 class="tbba-text-6xl tbba-font-light">Massive Heading</h1>
+<p class="tbba-text-primary tbba-text-lg tbba-font-mono">Primary text with custom font.</p>
+<p class="tbba-text-center tbba-text-red-500 tbba-underline">Centered and Underlined Text</p>
+Grid SystemResponsive, 12-column grid structure inspired by Bootstrap/Bulma.<div class="tbba-row tbba-gap-4">
+  <div class="tbba-col-xs-12 tbba-col-md-4 tbba-bg-blue-200 tbba-p-4 tbba-rounded-lg">
+    Mobile Full, Desktop 4-wide
+  </div>
+  <div class="tbba-col-xs-12 tbba-col-md-4 tbba-bg-blue-300 tbba-p-4 tbba-rounded-lg">
+    Mobile Full, Desktop 4-wide
+  </div>
+  <div class="tbba-col-xs-12 tbba-col-md-4 tbba-bg-blue-400 tbba-p-4 tbba-rounded-lg">
+    Mobile Full, Desktop 4-wide
+  </div>
 </div>
-
-
----
-
-⚡ JavaScript API
-
-Alerts
-
-TBBA.alert("Hello!", "success");
-
-Modals
-
-TBBA.modal.open({
-  title: "Modal",
-  content: "Example modal",
-  size: "lg"
+⚡ JavaScript APITBBA includes a robust JavaScript API for interactive components and dynamic styling.Alerts ⚠️Simple, dynamic notifications.TBBA.alert("👋 Welcome Back!", "info"); // An info alert
+TBBA.alert("🚫 Error: Something went wrong.", "danger"); 
+Modals 🪟Highly customizable and easy-to-trigger modal windows.TBBA.modal.open({
+  title: "🚀 Super Modal",
+  content: "This is a large, custom modal with dynamic content.",
+  size: "lg", // Options: 'sm', 'md', 'lg', 'xl'
+  backdropClose: true 
 });
-
-Toasts
-
-TBBA.toast.success("Saved!");
-
-Theme
-
-TBBA.theme.toggle();
-
-Validation
-
-TBBA.form.validate('#form');
-
-
----
-
-🌟 Real-World Example: Login Form
-
-<div class="tbba-container tbba-max-w-md tbba-mx-auto tbba-mt-8">
-  <div class="tbba-card tbba-shadow-xl">
-      <div class="tbba-card-header tbba-text-center">
-          <h2 class="tbba-text-2xl tbba-font-bold">Welcome Back</h2>
+Toasts 🍞Non-intrusive, timed notifications.TBBA.toast.success("✅ Settings Saved!", "top-center");
+TBBA.toast.error("❌ Action Failed.", "bottom-left");
+Theme 🌙Toggle between Light and Dark mode seamlessly.TBBA.theme.toggle(); // Toggles the current theme
+TBBA.theme.set('dark'); // Force dark mode
+Validation ✅Client-side form validation.const isValid = TBBA.form.validate('#loginForm'); // Validates form fields with 'required' attributes
+if (isValid) {
+    console.log("Form is valid! Submitting...");
+}
+✅ Real-World Example: Login FormA beautiful, responsive login form using only TBBA classes.<div class="tbba-container tbba-max-w-sm tbba-mx-auto tbba-mt-12 tbba-p-4">
+  <div class="tbba-card tbba-shadow-2xl tbba-rounded-2xl tbba-animate-fade-in">
+      <div class="tbba-card-header tbba-text-center tbba-p-5 tbba-bg-primary-dark tbba-rounded-t-2xl">
+          <h2 class="tbba-text-3xl tbba-font-extrabold tbba-text-white">Welcome Back</h2>
       </div>
-      <div class="tbba-card-body">
+      <div class="tbba-card-body tbba-p-6">
           <form id="loginForm">
-              <div class="tbba-form-group">
-                  <label>Email</label>
-                  <input type="email" class="tbba-form-control" required>
+              <div class="tbba-form-group tbba-mb-4">
+                  <label class="tbba-label">Email</label>
+                  <input type="email" class="tbba-form-control" required placeholder="name@example.com">
               </div>
 
-              <div class="tbba-form-group">
-                  <label>Password</label>
-                  <input type="password" class="tbba-form-control" required>
+              <div class="tbba-form-group tbba-mb-6">
+                  <label class="tbba-label">Password</label>
+                  <input type="password" class="tbba-form-control" required placeholder="********">
               </div>
 
-              <button class="tbba-btn tbba-btn-primary tbba-w-full">Login</button>
+              <button 
+                  type="submit" 
+                  class="tbba-btn tbba-btn-primary tbba-w-full tbba-text-lg tbba-transition-all tbba-hover-scale-105"
+                  onclick="event.preventDefault(); TBBA.form.validate('#loginForm') ? TBBA.toast.success('Logging In...') : TBBA.toast.error('Validation failed!');">
+                  Login Securely
+              </button>
           </form>
       </div>
   </div>
 </div>
-
-
----
-
-📜 License
-
-Licensed under the MIT License.
+📢 Community & SupportHave questions, need help, or want to contribute? Join our growing community!💬 Join Our Telegram Group!We're active and ready to assist you on your TBBA journey!📜 LicenseThis framework is open-source and available under the MIT License. Build anything you want!View Full License Details
