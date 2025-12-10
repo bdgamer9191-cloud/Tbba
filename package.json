@@ -1,0 +1,30 @@
+{
+  "name": "tbba",
+  "version": "2.0.0",
+  "description": "TBBA Framework - Ultimate Hybrid CSS Framework (Tailwind + Bootstrap + Bulma + Ahaduzzaman)",
+  "main": "TBBA.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "css-framework",
+    "tailwind",
+    "bootstrap",
+    "bulma",
+    "frontend",
+    "ui-framework"
+  ],
+  "author": "Ahaduzzaman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahaduzzaman/tbba"
+  },
+  "bugs": {
+    "url": "https://github.com/ahaduzzaman/tbba/issues"
+  },
+  "homepage": "https://tbba.dev",
+  "dependencies": {
+    "tbba": "^2.0.0"
+  }
+}
