@@ -1,16 +1,15 @@
 # 🎨 **TBBA Framework v2.0.0**
 
-[![GitHub release](https://img.shields.io/badge/version-2.0.0-brightgreen)](https://github.com/bdgamer1911-cloud/TBBA/releases)
+[![GitHub release](https://img.shields.io/badge/version-2.0.0-brightgreen)](https://github.com/bdgamer9191-cloud/Tbba/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/bdgamer1911-cloud/TBBA)](https://github.com/bdgamer1911-cloud/TBBA/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/bdgamer1911-cloud/TBBA)](https://github.com/bdgamer1911-cloud/TBBA/network)
-[![GitHub issues](https://img.shields.io/github/issues/bdgamer1911-cloud/TBBA)](https://github.com/bdgamer1911-cloud/TBBA/issues)
-[![File Size](https://img.shields.io/badge/size-200KB-blue)](https://github.com/bdgamer1911-cloud/TBBA)
-[![No Dependencies](https://img.shields.io/badge/dependencies-none-success)](https://github.com/bdgamer1911-cloud/TBBA)
-[![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![GitHub stars](https://img.shields.io/github/stars/bdgamer9191-cloud/Tbba)](https://github.com/bdgamer9191-cloud/Tbba/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/bdgamer9191-cloud/Tbba)](https://github.com/bdgamer9191-cloud/Tbba/network)
+[![GitHub issues](https://img.shields.io/github/issues/bdgamer9191-cloud/Tbba)](https://github.com/bdgamer9191-cloud/Tbba/issues)
+[![File Size](https://img.shields.io/badge/size-200KB-blue)](https://github.com/bdgamer9191-cloud/Tbba)
+[![No Dependencies](https://img.shields.io/badge/dependencies-none-success)](https://github.com/bdgamer9191-cloud/Tbba)
 
 **The Ultimate Hybrid CSS Framework**  
-*Tailwind + Bootstrap + Bulma + Custom Utilities = ❤️*
+*Tailwind + Bootstrap + Bulma + Custom Utilities*
 
 ## 📋 **Table of Contents**
 - [✨ Features](#-features)
@@ -25,7 +24,6 @@
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [👨‍💻 Author](#-author)
-- [🌟 Support](#-support)
 
 ## ✨ **Features**
 
@@ -37,36 +35,28 @@
 - **Responsive First**: Mobile-first with 6 breakpoints (xs, sm, md, lg, xl, xxl)
 
 ### 🎨 **Design System**
-- **Color System**: 10 color families (Blue, Gray, Red, Green, Yellow, Purple, Pink, Indigo, Teal, Orange, Cyan) with 10 shades each
+- **Color System**: 10 color families with 10 shades each
 - **Typography**: Complete scale (xs-9xl) with responsive adjustments
 - **Spacing**: 8-point scale (0.25rem increments, 0-64)
 - **Shadows**: 7 shadow levels with smooth transitions
 - **Border Radius**: 8 radius sizes including full rounded
-- **Transitions**: Custom easing functions and durations
 
 ### ⚡ **Performance**
 - **Lightweight**: ~200KB (unminified), ~80KB (minified), ~20KB gzipped
-- **Fast Loading**: CSS injected dynamically, no external CSS files needed
+- **Fast Loading**: CSS injected dynamically
 - **Tree Shaking**: Use only what you need
-- **Optimized**: Minified and production-ready
-
-### 📱 **Responsive Design**
-- **6 Breakpoints**: xs (0px), sm (576px), md (768px), lg (992px), xl (1200px), xxl (1400px)
-- **Mobile First**: All utilities are mobile-first
-- **Touch Optimized**: Enhanced touch interactions
-- **Print Styles**: Special styles for printing
 
 ## 🚀 **Quick Start**
 
-### **Method 1: CDN (Simplest)**
+### **CDN Method (Recommended)**
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My TBBA Project</title>
-    <script src="https://cdn.jsdelivr.net/gh/bdgamer1911-cloud/TBBA/TBBA.js"></script>
+    <title>TBBA Framework</title>
+    <script src="https://cdn.jsdelivr.net/gh/bdgamer9191-cloud/Tbba/TBBA.js"></script>
 </head>
 <body>
     <div class="tbba-container">
