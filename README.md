@@ -64,4 +64,4 @@
 
 # 👉 NPM INSTALLATION
  ```JS
-    npm install tbba```
+    npm install tbba
