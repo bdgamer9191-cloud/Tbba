@@ -62,6 +62,3 @@
 ```html
 <script src="https://unpkg.com/tbba@2.0.0/TBBA.js"></script>
 
-# 👉 NPM INSTALLATION
- ```JS
-    npm install tbba
